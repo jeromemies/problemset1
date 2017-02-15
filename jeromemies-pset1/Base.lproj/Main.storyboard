@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="jeromemies_pset1" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +21,85 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <switch hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wqm-gP-X1W">
+                                <rect key="frame" x="16" y="163" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="switch:" destination="BYZ-38-t0r" eventType="valueChanged" id="jvH-pD-xR2"/>
+                                </connections>
+                            </switch>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6nD-Gl-V3D">
+                                <rect key="frame" x="23" y="202" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="ears.png" translatesAutoresizingMaskIntoConstraints="NO" id="Gzo-cw-Ure">
+                                <rect key="frame" x="67" y="66" width="240" height="128"/>
+                            </imageView>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KiA-nm-ep0">
+                                <rect key="frame" x="45" y="318" width="51" height="31"/>
+                                <connections>
+                                    <action selector="switchEars:" destination="BYZ-38-t0r" eventType="valueChanged" id="wmH-GA-y8Z"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Ears" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3tM-aS-O05">
+                                <rect key="frame" x="116" y="323" width="34" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="body.png" translatesAutoresizingMaskIntoConstraints="NO" id="0pi-re-gg9">
+                                <rect key="frame" x="67" y="66" width="240" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="arms.png" translatesAutoresizingMaskIntoConstraints="NO" id="VTT-GG-R1X">
+                                <rect key="frame" x="67" y="66" width="240" height="128"/>
+                            </imageView>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ri0-aS-2Zh">
+                                <rect key="frame" x="45" y="374" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="switchArms:" destination="BYZ-38-t0r" eventType="valueChanged" id="GXS-pp-2oi"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Arms" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Pr-5e-fD9">
+                                <rect key="frame" x="116" y="379" width="41" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="KiA-nm-ep0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3rv-lm-S3a"/>
+                            <constraint firstItem="VTT-GG-R1X" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6nc-Xe-Mam"/>
+                            <constraint firstItem="3tM-aS-O05" firstAttribute="top" secondItem="Gzo-cw-Ure" secondAttribute="bottom" constant="129" id="Eqg-ds-no5"/>
+                            <constraint firstItem="KiA-nm-ep0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Qze-Yb-BsI"/>
+                            <constraint firstItem="KiA-nm-ep0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="29" id="RqK-MZ-6wB"/>
+                            <constraint firstItem="KiA-nm-ep0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="UP4-M9-EZU"/>
+                            <constraint firstItem="Gzo-cw-Ure" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Xop-oZ-Rv6"/>
+                            <constraint firstItem="3tM-aS-O05" firstAttribute="top" secondItem="VTT-GG-R1X" secondAttribute="bottom" constant="129" id="dZp-bi-eeB"/>
+                            <constraint firstItem="0pi-re-gg9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hZS-uo-2ml"/>
+                            <constraint firstItem="3tM-aS-O05" firstAttribute="top" secondItem="0pi-re-gg9" secondAttribute="bottom" constant="129" id="lap-8h-NZL"/>
+                            <constraint firstItem="3tM-aS-O05" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wav-QO-e2U"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="arms" destination="VTT-GG-R1X" id="BBs-LJ-uLn"/>
+                        <outlet property="ears" destination="Gzo-cw-Ure" id="b8y-Sh-FgW"/>
+                        <outlet property="label" destination="6nD-Gl-V3D" id="3we-2q-35q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="arms.png" width="367" height="428"/>
+        <image name="body.png" width="367" height="428"/>
+        <image name="ears.png" width="367" height="428"/>
+    </resources>
 </document>

@@ -12,6 +12,17 @@
 		0241FE8F1E5498F600E7216F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0241FE8D1E5498F600E7216F /* Main.storyboard */; };
 		0241FE911E5498F600E7216F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0241FE901E5498F600E7216F /* Assets.xcassets */; };
 		0241FE941E5498F600E7216F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0241FE921E5498F600E7216F /* LaunchScreen.storyboard */; };
+		0241FEA61E54992700E7216F /* arms.png in Resources */ = {isa = PBXBuildFile; fileRef = 0241FE9B1E54992700E7216F /* arms.png */; };
+		0241FEA71E54992700E7216F /* body.png in Resources */ = {isa = PBXBuildFile; fileRef = 0241FE9C1E54992700E7216F /* body.png */; };
+		0241FEA81E54992700E7216F /* ears.png in Resources */ = {isa = PBXBuildFile; fileRef = 0241FE9D1E54992700E7216F /* ears.png */; };
+		0241FEA91E54992700E7216F /* eyebrows.png in Resources */ = {isa = PBXBuildFile; fileRef = 0241FE9E1E54992700E7216F /* eyebrows.png */; };
+		0241FEAA1E54992700E7216F /* eyes.png in Resources */ = {isa = PBXBuildFile; fileRef = 0241FE9F1E54992700E7216F /* eyes.png */; };
+		0241FEAB1E54992700E7216F /* glasses.png in Resources */ = {isa = PBXBuildFile; fileRef = 0241FEA01E54992700E7216F /* glasses.png */; };
+		0241FEAC1E54992700E7216F /* hat.png in Resources */ = {isa = PBXBuildFile; fileRef = 0241FEA11E54992700E7216F /* hat.png */; };
+		0241FEAD1E54992700E7216F /* mouth.png in Resources */ = {isa = PBXBuildFile; fileRef = 0241FEA21E54992700E7216F /* mouth.png */; };
+		0241FEAE1E54992700E7216F /* mustache.png in Resources */ = {isa = PBXBuildFile; fileRef = 0241FEA31E54992700E7216F /* mustache.png */; };
+		0241FEAF1E54992700E7216F /* nose.png in Resources */ = {isa = PBXBuildFile; fileRef = 0241FEA41E54992700E7216F /* nose.png */; };
+		0241FEB01E54992700E7216F /* shoes.png in Resources */ = {isa = PBXBuildFile; fileRef = 0241FEA51E54992700E7216F /* shoes.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +33,17 @@
 		0241FE901E5498F600E7216F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0241FE931E5498F600E7216F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0241FE951E5498F600E7216F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0241FE9B1E54992700E7216F /* arms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arms.png; path = "../../../Downloads/mr-potato-head-images/arms.png"; sourceTree = "<group>"; };
+		0241FE9C1E54992700E7216F /* body.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = body.png; path = "../../../Downloads/mr-potato-head-images/body.png"; sourceTree = "<group>"; };
+		0241FE9D1E54992700E7216F /* ears.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ears.png; path = "../../../Downloads/mr-potato-head-images/ears.png"; sourceTree = "<group>"; };
+		0241FE9E1E54992700E7216F /* eyebrows.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eyebrows.png; path = "../../../Downloads/mr-potato-head-images/eyebrows.png"; sourceTree = "<group>"; };
+		0241FE9F1E54992700E7216F /* eyes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eyes.png; path = "../../../Downloads/mr-potato-head-images/eyes.png"; sourceTree = "<group>"; };
+		0241FEA01E54992700E7216F /* glasses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = glasses.png; path = "../../../Downloads/mr-potato-head-images/glasses.png"; sourceTree = "<group>"; };
+		0241FEA11E54992700E7216F /* hat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hat.png; path = "../../../Downloads/mr-potato-head-images/hat.png"; sourceTree = "<group>"; };
+		0241FEA21E54992700E7216F /* mouth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mouth.png; path = "../../../Downloads/mr-potato-head-images/mouth.png"; sourceTree = "<group>"; };
+		0241FEA31E54992700E7216F /* mustache.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mustache.png; path = "../../../Downloads/mr-potato-head-images/mustache.png"; sourceTree = "<group>"; };
+		0241FEA41E54992700E7216F /* nose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nose.png; path = "../../../Downloads/mr-potato-head-images/nose.png"; sourceTree = "<group>"; };
+		0241FEA51E54992700E7216F /* shoes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shoes.png; path = "../../../Downloads/mr-potato-head-images/shoes.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 		0241FE881E5498F600E7216F /* jeromemies-pset1 */ = {
 			isa = PBXGroup;
 			children = (
+				0241FEB11E54993100E7216F /* Supporting Files */,
 				0241FE891E5498F600E7216F /* AppDelegate.swift */,
 				0241FE8B1E5498F600E7216F /* ViewController.swift */,
 				0241FE8D1E5498F600E7216F /* Main.storyboard */,
@@ -62,6 +85,24 @@
 				0241FE951E5498F600E7216F /* Info.plist */,
 			);
 			path = "jeromemies-pset1";
+			sourceTree = "<group>";
+		};
+		0241FEB11E54993100E7216F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0241FE9B1E54992700E7216F /* arms.png */,
+				0241FE9C1E54992700E7216F /* body.png */,
+				0241FE9D1E54992700E7216F /* ears.png */,
+				0241FE9E1E54992700E7216F /* eyebrows.png */,
+				0241FE9F1E54992700E7216F /* eyes.png */,
+				0241FEA01E54992700E7216F /* glasses.png */,
+				0241FEA11E54992700E7216F /* hat.png */,
+				0241FEA21E54992700E7216F /* mouth.png */,
+				0241FEA31E54992700E7216F /* mustache.png */,
+				0241FEA41E54992700E7216F /* nose.png */,
+				0241FEA51E54992700E7216F /* shoes.png */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +164,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0241FEAD1E54992700E7216F /* mouth.png in Resources */,
 				0241FE941E5498F600E7216F /* LaunchScreen.storyboard in Resources */,
+				0241FEAA1E54992700E7216F /* eyes.png in Resources */,
+				0241FEAB1E54992700E7216F /* glasses.png in Resources */,
+				0241FEB01E54992700E7216F /* shoes.png in Resources */,
+				0241FEA71E54992700E7216F /* body.png in Resources */,
+				0241FEAE1E54992700E7216F /* mustache.png in Resources */,
+				0241FEA81E54992700E7216F /* ears.png in Resources */,
+				0241FEAF1E54992700E7216F /* nose.png in Resources */,
+				0241FEAC1E54992700E7216F /* hat.png in Resources */,
 				0241FE911E5498F600E7216F /* Assets.xcassets in Resources */,
+				0241FEA91E54992700E7216F /* eyebrows.png in Resources */,
+				0241FEA61E54992700E7216F /* arms.png in Resources */,
 				0241FE8F1E5498F600E7216F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
